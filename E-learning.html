@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="schoolName">Talent Rise Techno School</h1>
+        <p class="schoolName">-Empowering your minds today, Shaping the leaders of tommorow </p>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="d-flex flex-row ">
+                <div class="dropdown show">
+                    <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Select Standard
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionFirstClass')">I class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionSecondClass')">II class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionThirdClass')">III class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionFourthClass')">IV class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionFifthClass')">V class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionSixthClass')">VI class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionSeventClass')">VII class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionEigthClass')">VIII class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionNinthClass')">IX class</a>
+                        <a class="dropdown-item" href="#" onclick="showSection('sectionTenthClass')">X class</a>
+                    </div>
+                </div>
+                <nav class="m-1">
+                    <ul>
+                        <li><a href="#" onclick="showSection('broucher')">About Us</a></li>
+                        <li><a href="#" onclick="showSection('courses')">Administration</a></li>
+                        <li><a href="#" onclick="showSection('profile')">Faculty</a></li>
+
+                        <li><a href="#" onclick="showSection('contact')">Contact-Us</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+        <section id="broucher">
+            <div class="container ">
+                <section class="">
+                    <h2>About Us</h2>
+                    <p>Talent Rise Techno School is dedicated to providing a nurturing and inclusive environment where students can excel academically and personally. Our mission is to foster a love for learning, promote critical thinking, and prepare students for future challenges.</p>
+                </section>
+                <section>
+                    <h2>Mission Statement</h2>
+                    <p>Our Main goal is to provide students with fearless education where we will create intrest about the subject in the students and then we will support them with the knowledge and we believe in practical learning.</p>
+                    <p>Our mission is to provide a comprehensive education that encourages students to develop their intellectual, social, and emotional skills. We strive to create a supportive community that values diversity, creativity, and excellence.</p>
+                </section>
+                <section>
+                    <h2>Programs Offered</h2>
+                    <ul>
+                        <li>Science and Technology</li>
+                        <li>Arts and Humanities</li>
+                        <li>Sports and Physical Education</li>
+                        <li>Extracurricular Activities</li>
+                        <li>Coding classes</li>
+                        <li>Robotics</li>
+                        <li>Coding classes</li>
+                        <li>CED(center for Entrepreneurship skill Development)</li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-info h-100 ml-2 course-item">
+                <h3>Contact Information</h3>
+                <ul class="list-unstyled">
+                    <li class="d-flex">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="text">Parkal,Hanumkonda,Telangana</span>
+                        <p></p>
+                    </li>
+                    <li class="d-flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="text">+91 9652615442</span>
+                    </li>
+                    <li class="d-flex">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span class="text">tharun543216@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="courses">
+            <div class="main_page d-flex justify-content-center">
+                <div class="d-flex flex-row justify-content-center">
+                    <h2 class="m-1 d-flex flex-column justify-content-center text-center some_heading">"If education is identical with information, the libraries are the greatest sages in the world, and encyclopedias are the Rishis. <br>-Swami Vivekananda</h2>
+                </div>
+            </div>
+        </section>
+        <section id="profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="menu-section-heading text-center">All Faculty Members</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Principal</h1>
+                            <h3>Dr. V.Chandrashekhar</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Vice-Principal</h1>
+                            <h3>K. Sathwika</h3>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Maths Teacher</h1>
+                            <h3>Y. Aishwarya</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Science Teacher</h1>
+                            <h3>S. Sahitya</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Biology Teacher</h1>
+                            <h3>S. Ashritha</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Physics Teacher</h1>
+                            <h3>V. Praveen</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Chemistry Teacher</h1>
+                            <h3>S. Srinivas</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Social Teacher</h1>
+                            <h3>G. Sumathi</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="forum">
+            <h2>Forum</h2>
+            <div class="forum-thread">
+                <h3>General Discussion</h3>
+                <div class="forum-post">
+                    <p>User1: How do I center a div in CSS?</p>
+                </div>
+                <div class="forum-post">
+                    <p>User2: Use the `margin: auto` property.</p>
+                </div>
+                <textarea placeholder="Post a reply..."></textarea>
+                <button onclick="postReply()">Post</button>
+            </div>
+        </section>
+        <section id="assessments">
+            <h2>Assessments</h2>
+            <p>Quiz: What is HTML?</p>
+            <input type="text" id="quiz-answer" placeholder="Your answer">
+            <button onclick="submitQuiz()">Submit</button>
+            <p id="quiz-feedback"></p>
+        </section>
+        <section id="sectionFirstClass">
+            <h2>First Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionSecondClass">
+            <h2>Second Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionThirdClass">
+            <h2>Third Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionFourthClass">
+            <h2>Fourth Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionFifthClass">
+            <h2>Fifth Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionSixthClass">
+            <h2>Sixth Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding</h3>
+                    <p>Introduction To Coding</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionSeventClass">
+            <h2>Seventh Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding</h3>
+                    <p>History Of Coding</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionEigthClass">
+            <h2>Eigth Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding</h3>
+                    <p>Introduction to C</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionNinthClass">
+            <h2>Ninth Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding-1</h3>
+                    <p>Introduction to Java</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding-2</h3>
+                    <p>Introduction to Pyhton</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionTenthClass">
+            <h2>Ninth Standard Subjects</h2>
+            <div class="course-list">
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding-1</h3>
+                    <p>Advanced Java</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding-2</h3>
+                    <p>Web Development</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Coding-2</h3>
+                    <p>Specialization</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>English</h3>
+                    <p>Basic English</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Second Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Third Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Mathematics</h3>
+                    <p>Basic Mathematics</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>First Language</h3>
+                    <p>-Tagline-</p>
+                </div>
+                <div class="course-item" onclick="showSection('sectionChapters')">
+                    <h3>Social</h3>
+                    <p>-Tagline-</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="sectionChapters">
+
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Chapter-1</h3>
+                    <p>-Chapter Name-</p>
+                </div>
+                <div class="course-item">
+                    <h3>Chapter-2</h3>
+                    <p>-Chapter Name-</p>
+                </div>
+                <div class="course-item">
+                    <h3>Chapter-3</h3>
+                    <p>-Chapter Name-</p>
+                </div>
+                <div class="course-item">
+                    <h3>Chapter-4</h3>
+                    <p>-Chapter Name-</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
